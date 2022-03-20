@@ -1,0 +1,53 @@
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    max-width: 100% !important;
+
+    width: 100% !important;
+   
+}
+
+
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    max-width: 100% !important;
+    width: 100% !important;
+    
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    max-width: 100% !important;
+    width: 100% !important;
+  
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid rgba(85, 85, 85, 0.671);
+  }
+  input[type=textarea]:focus{
+    border: 3px solid rgba(85, 85, 85, 0.267);
+  }
+  input[type=email]:focus{
+    border: 3px solid rgba(85, 85, 85, 0.267);}

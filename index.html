@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="typewriter.css">
+<link rel="stylesheet" href="zoominout.css">
+<link rel="stylesheet" href="skills.css">
+<link rel="stylesheet" href="footernavigation.css">
+<link rel="stylesheet" href="contactus.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="typewriter.js"></script>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="skills.js"></script>
+
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img src="1889370.png" width="112" height="28">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              About me
+            </a>
+      
+            <a class="navbar-item" href="#skiils">
+              Skills
+            </a>
+            <a class="navbar-item" href="#contact">
+              Contact Me
+            </a>
+      
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <div id="typew">
+    <h1 style="height: 40vh; padding: 60px; font-size:revert;">
+        <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I am Sahil Varshney.", "I am Sharepoint Developer.", "I Love web development.", "i am looking for a job.","i have experience in Sharepoint,Powerapps." ]'>
+          <span class="wrap"></span>
+        </a>
+      </h1>
+    </div>
+
+
+    <div style="padding-left:12% ;">
+        <img src="code-1076536_960_720.webp" alt="HTML" class="zoom"srcset="">
+      
+
+        <img src="istockphoto-1047259374-612x612.jpg" alt="" style="height: 252px;" class="zoom"srcset="">
+        <img src="istockphoto-1303169218-612x612.jpg" alt="" class="zoom"srcset="">
+    </div>
+
+    <!----------------------------------------Skills------------------------->
+    <h1 class="skillsM">My Skills</h1>
+    <div style="height: 50vh;margin-left: 40px;" id="skiils">
+    
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+<p>PHP</p>
+<div class="container">
+  <div class="skills php">60%</div>
+</div>
+</div>
+<!--------------------------------------------Contact Us---------------------->
+
+<form id="contact" method="post">
+  <fieldset style="border: 1px solid black;margin-left: 26px;">
+    <legend>Contact Me:</legend>
+<table style="width:100%;max-width:550px;border:0;margin: auto;" cellpadding="8" cellspacing="0">
+  <tr> <td>
+  <label for="Name">Name*:</label>
+  </td> <td>
+  <input name="name" id="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+  </td> </tr> <tr> <td>
+  <label for="PhoneNumber">Phone number:</label>
+  </td> <td>
+  <input name="PhoneNumber" type="text" id="number" minlength="10" maxlength="10" style="width:100%;max-width:250px;" />
+  </td> </tr> <tr> <td>
+  <label for="FromEmailAddress">Email address*:</label>
+  </td> <td>
+  <input name="email" type="email" id="email" maxlength="90" style="width:100%;max-width:250px;" />
+  </td> </tr> 
+  <tr><td>Subject:</td>
+ <td>
+    <input name="Subject" type="text" id="Subject" maxlength="90" style="width:100%;max-width:250px;" />
+  </td>
+  </tr>
+  <tr> <td>
+  <label for="Comments">Comments*:</label>
+  </td> <td>
+  <textarea name="Comments" id="Comments"rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+  </td> </tr> <tr> <td>
+  * - required fields
+  </td> <td>
+  
+  <input  type="button" style="
+  position: inherit;
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;"value="Send Mail" id="sendem" />
+  
+  </td> </tr>
+</table>
+  </fieldset>
+  </form>
+
+<!--------------------------------footer navigation------------------------>
+<div id="Footernav" class="footernavigation">
+  <ul class="footerul">
+<li class="footerulli">About Us</li>
+<li class="footerulli">Download CV</li>
+<li class="footerulli">Check My projects</li>
+      </ul>
+      <span class="spanforicons">
+      <a href="#" class="fa fa-facebook" style="font-size: 36px;"></a>
+      <a href="#" class="fa fa-instagram"style="font-size: 36px;"></a>
+      <a href="#" class="fa fa-twitter"style="font-size: 36px;"></a>
+      <a href="#" class="fa fa-linkedin"style="font-size: 36px;"></a>
+    </span>
+      <h1 style=" width: 100%;      background-color: black;      padding-left: 50%;      color: white;      margin-top:12%;  ">@Made By Sahil Varshney(SV)</h1>
+</div>
+
+
+</div>
+
+</body>
+
+</html>
